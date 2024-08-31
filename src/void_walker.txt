@@ -1,0 +1,33 @@
+├── /assets            # All game assets (images, sounds, fonts, etc.)
+│   ├── /images        # All image files (sprites, backgrounds, etc.)
+│   │   ├── /player    # Player sprites
+│   │   ├── /enemies   # Enemy sprites
+│   │   └── /ui        # UI elements (buttons, icons, etc.)
+│   ├── /audio         # Sound effects and background music
+│   │   ├── /sfx       # Sound effects (shooting, explosions)
+│   │   └── /music     # Background music tracks
+│   └── /fonts         # Custom fonts (if any)
+│
+├── /frontend              # Source code files
+│   ├── /scenes        # Game scenes (e.g., Main Menu, Game Over, Levels)
+│   │   ├── MainMenu.js
+│   │   ├── Level1.js
+│   │   └── GameOver.js
+│   ├── /sprites       # Sprite classes (player, enemies, projectiles)
+│   │   ├── Player.js
+│   │   ├── Enemy.js
+│   │   └── Bullet.js
+│   ├── /ui            # UI-related scripts (score, health bar)
+│   │   └── HUD.js
+│   ├── /config        # Configuration files (constants, game settings)
+│   │   └── config.js
+│   ├── /utils         # Utility functions (helpers, math, etc.)
+│   │   └── helpers.js
+│   ├── /managers      # Managers for handling different game aspects
+│   │   ├── AudioManager.js  # Handle sound and music
+│   │   └── InputManager.js  # Handle keyboard/mouse input
+│   └── index.js       # Main entry point of the game
+│
+├── index.html         # Main HTML file to run the game
+├── package.json       # Project metadata and dependencies (if using Node.js)
+└── README.md          # Documentation for your project
