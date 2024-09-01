@@ -11,6 +11,15 @@
   border: 5px solid black;
 }
 
-#punk_sprite {
+#punk_sprite_running {
     display: none;
 }
+
+#punk_sprite_idle {
+    display: none;
+}
+
+#punk_sprite_jump { 
+    display: none;
+}
+
